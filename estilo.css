@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background: linear-gradient(red, black);
 }
 
 .box{
@@ -28,5 +29,51 @@ margin: 0px 15% 0 15%;
 .box_cabecalho-nav-ul-li{
     padding: 10px;
     color: #c5c6c7;
+}
+
+.section_img-banner{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    margin: 0 10px 0 10px;
+}
+
+.container_img{
+    width: 50%;
+}
+
+.container_titulo{
+text-align: center;
+color: white;
+}
+
+.container_p{
+    text-align: justify;
+    margin: 20px;
+    color: white;
+}
+
+.section{
+    display: flex;
+}
+
+.container_img2{
+    width: 45%; 
+    margin: 10px 10px 0 10px;
+}
+
+.container_titulo3 {
+    text-align: center;
+    color: white;
+}
+
+.container_p2{
+    text-align: right;
+    margin: 20px;
+    display: flex;
+    text-align: start;
+    color: white;
 }
 
